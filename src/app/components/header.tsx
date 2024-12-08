@@ -34,23 +34,23 @@ export default function Header() {
               <Link href={"/"}>Home</Link>
             </li>
             <li>
-              <Link href={"/shop"}>Shop</Link>
+              <Link href={"/Pages/shop"}>Shop</Link>
             </li>
             <li>
               <Link href={"#"}>About</Link>
             </li>
             <li>
-              <Link href={"/contact"}>Contact</Link>
+              <Link href={"/Pages/contact"}>Contact</Link>
             </li>
           </ul>
         </div>
 
         {/* Icon Section */}
         <div className="flex items-center justify-between gap-6 sm:gap-8 text-[24px] sm:text-[28px]">
-        <Link href={"/myAccount"}><CiUser /></Link>
+        <Link href={"/Pages/myAccount"}><CiUser /></Link>
         <Link href={"#"}><CiSearch /></Link>
         <Link href={"#"}><CiHeart /></Link>
-        <Link href={"/cart"}><CiShoppingCart /></Link>
+        <Link href={"/Pages/cart"}><CiShoppingCart /></Link>
         </div>
       </div>
     </div>

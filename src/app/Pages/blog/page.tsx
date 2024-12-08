@@ -1,11 +1,11 @@
+import Footer2 from '@/app/components/footer2'
+import Blog from '@/app/components/same-Components/blog'
 import React from 'react'
-import Shop from '../components/group78/shop'
-import Footer2 from '../components/footer2'
 
 export default function Page() {
   return (
     <div>
-      <Shop/>
+      <Blog/>
 
 
 

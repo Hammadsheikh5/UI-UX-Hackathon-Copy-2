@@ -1,6 +1,7 @@
+import Footer2 from '@/app/components/footer2'
+import Contact from '@/app/components/same-Components/contact'
 import React from 'react'
-import Contact from '../components/group78/contact'
-import Footer2 from '../components/footer2'
+
 
 export default function Page() {
   return (

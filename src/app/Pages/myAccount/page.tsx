@@ -1,6 +1,7 @@
+import Footer2 from '@/app/components/footer2'
+import MyAccount from '@/app/components/same-Components/myAccount'
 import React from 'react'
-import MyAccount from '../components/group78/myAccount'
-import Footer2 from '../components/footer2'
+
 
 export default function Page() {
   return (

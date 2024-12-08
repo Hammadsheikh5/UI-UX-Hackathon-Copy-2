@@ -23,7 +23,7 @@ export default function AsgardSofa() {
                         <p className='text-[30px] font-bold sm:text-[36px] lg:text-[48px]'>Asgaard sofa</p>
                     </div>
                     <div className='h-[45px] w-[180px] text-base font-normal border-2 border-black border-solid flex justify-center items-center sm:text-lg  lg:text-xl sm:h-[50px] sm:w-[200px] lg:h-[64px] lg:w-[255px]'>
-                        <button><Link href={"/singleProduct"}>Order Now</Link></button>
+                        <button><Link href={"/Pages/singleProduct"}>Order Now</Link></button>
                     </div>
                 </div>
             </div>

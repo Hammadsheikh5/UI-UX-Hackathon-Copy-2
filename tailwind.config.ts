@@ -12,6 +12,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        poppins: ['Poppins'], // Add Poppins font family
+      },
     },
   },
   plugins: [],

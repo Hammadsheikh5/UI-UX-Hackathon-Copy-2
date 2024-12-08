@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Product() {
   return (
-    <div className='font-poppins'>
+    <div className='font-poppins bg-white text-black'>
       <div className="group19 w-full max-w-[1440px] mx-auto flex flex-col items-center py-[55px] px-[100px]">
         {/* Title and Description */}
         <div className="container flex flex-col text-center justify-center gap-5 font-medium">

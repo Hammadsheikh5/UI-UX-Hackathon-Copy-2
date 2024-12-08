@@ -1,18 +1,16 @@
 import React from 'react'
 import Image from 'next/image'
 
-export default function Product() {
+export default function RelatedProduct() {
   return (
-    <div className='font-poppins'>
+    <div className='font-poppins bg-white text-black' >
       <div className="group19 w-full max-w-[1440px] mx-auto flex flex-col items-center py-[55px] px-[100px]">
         {/* Title and Description */}
         <div className="container flex flex-col text-center justify-center gap-5 font-medium">
           <p className='text-xl sm:text-2xl md:text-2xl lg:text-4xl xl:text-4xl '>
-            Top Picks For You
+            Related Products
           </p>
-          <p className='text-[#9F9F9F] text-xs  md:text-sm lg:text-base xl:text-base'>
-            Find a bright ideal to suit your taste with our great selection of suspension, floor and table lights.
-          </p>
+ 
         </div>
 
         {/* Product Grid */}

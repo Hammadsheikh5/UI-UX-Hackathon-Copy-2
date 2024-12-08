@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function AsgardSofa() {
     return (
-        <div className='font-poppins'>
+        <div className='font-poppins text-black'>
 
             <div className='group23 bg-[#FFF9E5] w-full max-w-[1440px] mx-auto h-[450px] flex flex-col lg:flex-row justify-center lg:justify-around items-center sm:h-[500px] lg:h-[639px] '>
                 <div className="image-div relative bottom-3 right-5 sm:bottom-0 sm:right-0 lg:bottom-3 lg:right-5">

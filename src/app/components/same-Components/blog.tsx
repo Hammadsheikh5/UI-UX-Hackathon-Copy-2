@@ -4,9 +4,9 @@ import Image from "next/image";
 
 export default function Blog() {
     return (
-        <div className='font-poppins'>
+        <div className='font-poppins '>
             <div
-                className="group78 w-full max-w-[1440px] mx-auto bg-cover bg-center flex flex-col items-center justify-center sm:h-[200px] md:h-[250px] lg:h-[316px]"
+                className="group78 w-full max-w-[1440px] mx-auto bg-cover bg-center flex flex-col items-center justify-center sm:h-[200px] md:h-[250px] lg:h-[316px] text-black"
                 style={{ backgroundImage: "url('/background/bg.png')" }}
             >
                 <div className='group55 flex flex-col items-center'>

@@ -4,13 +4,13 @@ import React, { useState } from 'react';
 import { CiShoppingCart, CiSearch, CiHeart, CiUser } from 'react-icons/ci';
 import { FiMenu, FiX } from 'react-icons/fi';
 
-export default function Header() {
+export default function HeaderHome() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <div className="font-poppins text-black relative">
       {/* Header Container */}
-      <div className="bg-white w-full max-w-[1440px] mx-auto py-6 px-4 sm:px-8 flex justify-between items-center">
+      <div className="bg-[#FBEBB5] w-full max-w-[1440px] mx-auto py-6 px-4 sm:px-8 flex justify-between items-center">
         {/* Hamburger Menu for Small Screens */}
         <div className="sm:hidden">
           <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
@@ -55,7 +55,9 @@ export default function Header() {
 
       {/* Mobile Slide-In Menu */}
       <div
-        className={`fixed top-0 left-0 h-full w-[70%] bg-[#FBEBB5] z-50 shadow-lg transform ${
+        className={`fixed top-0 left-0 h-full w-[70%] ${
+          isMenuOpen ? 'bg-white' : 'bg-[#FBEBB5]'
+        } z-50 shadow-lg transform ${
           isMenuOpen ? 'translate-x-0' : '-translate-x-full'
         } transition-transform duration-300 ease-in-out`}
       >

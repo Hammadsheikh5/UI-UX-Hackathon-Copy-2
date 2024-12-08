@@ -1,4 +1,5 @@
 import Footer2 from '@/app/components/footer2'
+import Header from '@/app/components/header'
 import Contact from '@/app/components/same-Components/contact'
 import React from 'react'
 
@@ -6,6 +7,7 @@ import React from 'react'
 export default function Page() {
   return (
     <div>
+      <Header/>
       <Contact/>
 
 

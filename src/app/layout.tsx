@@ -15,6 +15,7 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+
 // Load Poppins font with the desired weights
 const poppins = Poppins({
   subsets: ['latin'],
@@ -34,11 +35,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${poppins.className} antialiased`}
       >
-        <Header/>
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );

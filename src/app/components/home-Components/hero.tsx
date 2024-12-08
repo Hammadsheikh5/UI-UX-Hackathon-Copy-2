@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Hero() {
   return (
-    <div className='font-poppins'>
+    <div className='font-poppins text-black'>
 
       <div className='bg-[#FBEBB5] w-full max-w-[1440px] mx-auto h-[600px] flex flex-col lg:flex-row justify-center items-center sm:h-[700px] lg:h-[900px]'>
         {/* Text Section */}

@@ -19,7 +19,7 @@ export default function HeaderHome() {
         </div>
 
         {/* Navigation Menu (Desktop Version) */}
-        <div className="hidden sm:flex gap-12">
+        <div className="hidden sm:flex gap-12 flex-1 justify-center items-center">
           <ul className="flex flex-row items-center text-base font-medium text-center gap-12">
             <li>
               <Link href="/">Home</Link>

@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function RelatedProduct() {
   return (
@@ -102,7 +103,7 @@ export default function RelatedProduct() {
 
         {/* View More Section */}
         <div className='group8 flex flex-col gap-2 w-[104px] items-center text-sm sm:text-md md:text-lg lg:text-xl xl:text-xl font-medium'>
-          <p>View More</p>
+          <p><Link href={"/Pages/shop"}>View More</Link></p>
           <hr className='w-full border-t-2 border-black mt-2' />
         </div>
       </div>

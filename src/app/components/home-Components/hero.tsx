@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Hero() {
   return (
@@ -12,7 +13,7 @@ export default function Hero() {
             Rocket single seater
           </p>
           <div className='text-base xl:text-2xl font-medium w-[100px] h-[28px]  lg:w-[121px] lg:h-[36px]'>
-            <p>Shop Now</p>
+            <p><Link href={"/Pages/shop"}>Shop Now</Link></p>
             <hr className='w-full border-t-2 border-black mt-2' />
           </div>
         </div>

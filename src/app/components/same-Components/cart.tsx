@@ -1,6 +1,7 @@
 import React from 'react';
 import { MdKeyboardArrowRight } from "react-icons/md";
 import Image from "next/image";
+import Link from 'next/link';
 
 export default function Cart() {
     return (
@@ -22,7 +23,7 @@ export default function Cart() {
                     </p>
                 </div>
                 <div className='group56 flex items-center gap-[6px] text-sm  sm:text-lg'>
-                    <p className='font-medium'>Home</p>
+                    <p className='font-medium'><Link href={"/"}>Home</Link></p>
                     <MdKeyboardArrowRight className='text-base sm:text-3xl' />
                     <p className='font-light'>Cart</p>
                 </div>

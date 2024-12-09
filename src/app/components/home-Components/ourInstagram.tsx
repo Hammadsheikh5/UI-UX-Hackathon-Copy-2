@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 export default function OurInstagram() {
@@ -12,8 +13,8 @@ export default function OurInstagram() {
                         <p className='font-bold text-[28px] sm:text-[36px] lg:text-[48px] xl:text-[60px]'>Our Instagram</p>
                         <p className='font-normal text-sm sm:text-sm lg:text-lg xl:text-xl'>Follow our store on Instagram</p>
                     </div>
-                    <div className='w-[80%] max-w-[255px] h-[48px] sm:h-[50px] lg:h-[56px] xl:h-[64px] bg-[#FAF4F4] flex justify-center items-center rounded-full font-normal text-sm lg:text-lg xl:text-xl mt-4 shadow-md'>
-                        Follow Us
+                    <div className='w-[80%] max-w-[255px] h-[48px] sm:h-[50px] lg:h-[56px] xl:h-[64px] bg-[#FAF4F4] flex justify-center items-center rounded-full font-normal text-sm lg:text-lg xl:text-xl mt-4 shadow-md'><Link href={"https://www.instagram.com/sheikh_zada23/"} target='_blank'>
+                        Follow Us</Link> 
                     </div>
 
                 </div>
